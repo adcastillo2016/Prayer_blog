@@ -1,0 +1,8 @@
+
+<div class="show">
+<h1><%= @prayer.title%></h1>
+
+<div class="message"><%= @prayer.message%></div><br>
+
+<p><%= link_to 'Edit', edit_prayer_path(@prayer)%> | <%= link_to 'Delete ', prayer_path(@prayer), method: :delete, data: {confirm: "Are you sure?"}%></p>
+</div>

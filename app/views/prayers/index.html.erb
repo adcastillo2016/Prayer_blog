@@ -1,0 +1,8 @@
+
+<% @prayer.each do |post|%>
+	<h2><%= post.title%></h2>
+	<div class="message"><%= truncate(post.message, :length => 300)%></div>
+	<br>
+	<%= link_to "Read Prayer", post %>
+
+<% end %>

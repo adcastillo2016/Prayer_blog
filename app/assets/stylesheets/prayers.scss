@@ -1,0 +1,116 @@
+
+ul{
+	list-style-type: none;
+	text-align: right;
+	margin-top: 25px;
+}
+a{
+	text-decoration: none;
+	color: #0080ff;
+
+}
+
+#sidebar {
+    width: 240px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #263959;
+    padding-top: 50px;
+    padding-right: 10px;
+    border-right: 10px solid #9baec8;
+    
+}
+#sidebar h1{
+	text-align: left;
+	font-weight: bolder;
+	color: #f1f1f1;
+
+}
+
+#sidebar ul li a{
+
+	text-decoration:  none;
+	font-size: 25px;
+	color: #79a8a9;
+	font-weight: bolder;
+}
+
+#main-content{
+	margin-left: 240px;
+
+
+}
+
+ .header  {
+  	padding-left: 20px;
+    border-bottom: 3px solid #9baec8;
+    
+    margin-bottom: 10px;
+    color: #9eafba;
+   
+
+}
+
+.header a {
+  	padding-left: 20px;
+  	padding-bottom: 15px;
+
+   font-weight: bolder;
+    
+    color: #9eafba;
+   
+
+}
+
+/*------------
+content
+--------------*/
+.post_wrapper{
+	padding-left: 35px;
+	padding-right: 35px;
+
+
+}
+.post_wrapper h2{
+	font-family: 'Lalezar', cursive;
+}
+
+
+
+
+
+.show h1{
+	font-family: 'Lalezar', cursive;
+}
+.message{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	color: #08182b;
+	
+}
+
+
+
+
+/*-----
+form
+-----*/
+
+input[type="submit"]
+{
+	    outline: none;
+    background: transparent;
+    border: 1px solid #d6dce0;
+    padding: .5em 1.5em;
+    font-size: 1.1em;
+    border-radius: 1.5em;
+    margin-left: .5em;
+    margin-top: 10px;
+
+}
+label{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
