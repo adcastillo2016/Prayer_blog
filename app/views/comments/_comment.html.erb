@@ -6,8 +6,10 @@
 
 
 	</div>
+	<%if user_signed_in?%>
 		<p><%= link_to 'Delete', [comment.prayer, comment],
 						method: :delete,
 						class: "button",
 							data: { confirm: 'Are you sure?'}%></p>
+							<%end%>
 	</div>

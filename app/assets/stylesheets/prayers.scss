@@ -90,7 +90,13 @@ content
 .show h1{
 	font-family: 'Lalezar', cursive;
 }
-.message{
+.home .message{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	
+}
+.show #message{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bolder;
 	color: #08182b;
@@ -154,4 +160,18 @@ label{
 	font-size: 25px;
 	margin-bottom: 30px;
 
+}
+
+/*-----
+login/logout
+------*/
+.field input{
+	border-radius: 5px;
+	width: 300px;
+	height: 25px;
+	border-color:#9baec8 ;
+	border-width: 5px;
+	border-style: solid;
+	margin-bottom: 20px;
+	margin-top: 15px;
 }
