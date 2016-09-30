@@ -15,22 +15,27 @@
   <ul>
     <li><%= link_to "Home", root_path%></li>
     <li><%= link_to "New Prayer", new_prayer_path%></li>
+    <li><%= link_to "Login", new_prayer_path%></li>
 
   </ul>
 
 </div>
   
   <div id="main-content">
+  <div class="header">
   <% if current_page?(root_path) %>
-         <div class="header">
+         
   	<p>All Prayer</p>
-  </div>
+  
       <% else %>
-      <div class="header">
-        <p><%= link_to "Back to All Posts", root_path %><p>
-        </div>
+      
+        <p><%= link_to "Back to All Posts", root_path %></p>
+       
       <% end %>
- 
+
+     
+
+ </div>
   	<div class="post_wrapper" >
     <%= yield %>
     </div>
