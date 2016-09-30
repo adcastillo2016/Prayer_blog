@@ -2,15 +2,16 @@
 <div class="show">
 <h1><%= @prayer.title%></h1>
 
-<div class="message"><%= @prayer.message%></div><br>
+<div id="message"><%= @prayer.message%></div><br>
 <% if user_signed_in?%>
 
 <p><%= link_to 'Edit', edit_prayer_path(@prayer)%> | <%= link_to 'Delete ', prayer_path(@prayer), method: :delete, data: {confirm: "Are you sure?"}%></p>
 <%end%>
-<% if !user_signed_in?%>
+
 <div id="comments">
 	<h2><%= @prayer.comments.count %> Comments</h2>
 	<%= render @prayer.comments%>
+	<% if user_signed_in?%>
 	<h3>Add a comment</h3>
 	<%= render "comments/form"%>
 	
