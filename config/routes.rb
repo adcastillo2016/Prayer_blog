@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-	resources :prayers
+	resources :prayers do
+		resources :comments
+	end
 
 	root 'prayers#index'
 

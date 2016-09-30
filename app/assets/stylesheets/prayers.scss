@@ -16,16 +16,16 @@ a{
     left: 0;
     top: 0;
     height: 100%;
-    background: #263959;
+    background: #45d9fd;
     padding-top: 50px;
     padding-right: 10px;
-    border-right: 10px solid #9baec8;
+    border-right: 10px solid #274555;
     
 }
 #sidebar h1{
 	text-align: left;
 	font-weight: bolder;
-	color: #f1f1f1;
+	color: #fff;
 
 }
 
@@ -33,7 +33,7 @@ a{
 
 	text-decoration:  none;
 	font-size: 25px;
-	color: #79a8a9;
+	color: #333;
 	font-weight: bolder;
 }
 
@@ -45,7 +45,7 @@ a{
 
  .header  {
   	padding-left: 20px;
-    border-bottom: 3px solid #9baec8;
+    border-bottom: 3px solid #274555;
     
     margin-bottom: 10px;
     color: #9eafba;
@@ -97,9 +97,16 @@ content
 	
 }
 .home{
-	border-bottom:solid ;
+	border:solid ;
 	border-width: 3px;
-	border-bottom-color: #f1f1f1;
+	border-color: #08182b;
+	background-color: #2b90d9;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+.home a{
+	color:#08182b;
 }
 
 .date{
@@ -135,7 +142,7 @@ input[type="text"]{
 
 textarea{
 	border-radius: 5px;
-	height: 300px;
+	height: 250px;
 	width: 500px;
 	border-color:#9baec8 ;
 	border-width: 5px;
